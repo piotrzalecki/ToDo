@@ -1,0 +1,52 @@
+
+// Fonts
+@import url("https://fonts.googleapis.com/css?family=Raleway:300,400,600");
+
+// Variables
+@import "variables";
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+.navbar-laravel {
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.04);
+}
+
+
+div.autocomplite_suggestions {
+  background-color: #fff;
+  border: 1px solid #ced4da;
+
+  border-radius: 0.25rem;
+  position: absolute;
+    z-index: 100;
+    margin: 0;
+
+
+ul{
+  padding:1em;
+  margin: 0;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+  li {
+    text-decoration: none;
+    list-style: none;
+  }
+}
+
+.table thead th{
+  border: 0;
+}
+
+.btn-info{
+  float:right;
+}
+
+div.card-header .btn-success{
+  margin-top: 2px;
+}
